@@ -58,6 +58,7 @@ def guessing_game():
         slow_print(f"Deleting System 32 in {i} seconds...", 0.05)
         time.sleep(1)
 
-    slow_print("Just kidding! 😅", 0.05)
+    slow_print("Just kidding!", 0.05)
+
 
 guessing_game()
